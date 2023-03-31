@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Hind+Madurai&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../Images/DubaiBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+body a img {
+    background-color: #ffffff;
+    box-shadow: 1px 1px 6px #000000;
+    border-radius: 50px;
+    height: 25px;
+    padding: 13px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 90vh;
+    width: 70vw;
+    box-shadow: 2px 2px 15px #000000;
+    
+}
+
+.Pages {
+    width: 100%;
+    height: 90vh;
+    background-color: #ffffff;
+    
+}
+
+.first, .third {
+    background-color: #2D2D2D;
+}
+
+/* CONTENT INSIDE */
+/* FIRST */
+.first {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+/* JAPAN */
+.first h1 {
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+    margin: 50px auto 0 auto;
+    
+}
+
+.first p {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    width: 300px;
+    font-size: 18px;
+    margin: 40px auto 0 auto;
+}
+
+.first img {
+    margin-top: 10px;
+    width: 100%;
+    height: 240px;
+}
+
+/* SECOND */
+.second h1 {
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #2D2D2D;
+    text-align: center;
+    width: 200px;
+    margin: 50px auto 0 auto;
+}
+
+.second img {
+    width: 100%;
+    margin-top: 40px;
+    height: 225px;
+}
+
+.second p {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #2d2d2d;
+    text-align: justify;
+    width: 300px;
+    font-size: 18px;
+    margin: 10px auto 0 auto;
+}
+
+/* THIRD */
+.third img {
+    width: 100%;
+    height: 330px;
+    /* margin-top: 40px; */
+}
+
+.third h1 {
+    font-size: 45px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    margin: 30px auto 0 auto;
+}
+
+.third p {
+    font-family: 'Hind Madurai', sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    width: 300px;
+    font-size: 18px;
+    margin: 20px auto 0 auto;
+}
+
